@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MedQuest | FAQ</title>
+<title>Medix | Contact</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/medical-guide-icons.css">
@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css">
 <link rel="stylesheet" type="text/css" href="css/zerogrid.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/loader.css">
@@ -32,12 +33,15 @@
 </div>
 
 <!--Top bar-->
+
+
+
 <div class="topbar">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <p class="pull-left hidden-xs">Medquest USA Medical Supplies</p>
-        <p class="pull-right"><i class="fa fa-ambulance"></i>Emergency Line (+001) 321-125-152</p>
+        <p class="pull-right"><i class="fa fa-phone"></i>Get in touch: 630-587-0019</p>
       </div>
     </div>
   </div>
@@ -81,107 +85,96 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-         <h2 class="title">FAQ’s</h2>
-         <div class="page_link"><a href="index.html">Home</a><i class="fa fa-long-arrow-right"></i><a href="index.html">Pages</a><i class="fa fa-long-arrow-right"></i><span>Faq’s</span></div>
+         <h2 class="title">Contact Us</h2>
+         <div class="page_link"><a href="index.html">Home</a><span><i class="fa fa-long-arrow-right"></i>Contact Us</span></div>
       </div>
     </div>
   </div>
 </div>  
 </section>
 
-
-
-<section id="faq" class="padding">
+<!--LOcation Map-->
+<section class="padding">
+<h3 class="hidden">hidden</h3>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-      <h2 class="heading">Some Common Questions:</h2>
-      <hr class="heading_space">
-        <div class='faq_wrapper'>
-  <ul class='items'>
-    <li>
-      <a href='#'> How long will the catheter remain in place? </a>
-      <ul class='sub-items'>
-        <li>
-          <p class="half_space">The catheter will remain in place until fluid stops draining.
-     Otherwise, the amount of time will vary from patient to patient, however the catheter could   
-     remain in place as long as needed. Fluid build-up may stop in the chest but it is unlikely to stop 
-     in the abdomen. 
-</p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href='#'>When will the sutures (stiches) be removed?</a>
-      <ul class='sub-items'>
-        <li>
-          <p>Your nurse should remove these within 12-14 days.</p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href='#'>What if patient is feeling short of breath or feeling discomfort after draining?
-</a>
-      <ul class='sub-items'>
-        <li>
-          <p class="half_space">Slight discomfort after drainage will normally subside in a short period of time. However, if the 
-     patient continues to experience shortness of breath, and or pain after drainage consult the doctor. </p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href='#'>What if the catheter accidentally gets pulled out?
-</a>
-      <ul class='sub-items'>
-        <li>
-          <p>In the unlikely event that the catheter gets pulled out, or the polyester cuff is exposed,  you 
-     should cover the exit site with a sterile Tegaderm dressing as soon as possible, and seek    
-     immediate medical attention.
-</p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href='#'>What should I do if the color of the fluid changes from the usual color?
-</a>
-      <ul class='sub-items'>
-        <li>
-          <p>Any change in color or appearance should be reported to your homecare nurse or doctor.</p>
-        </li>
-      </ul>
-    </li>
-      <li>
-      <a href='#'>Can I take a shower?
-
-</a>
-      <ul class='sub-items'>
-        <li>
-          <p>You can take a shower or sponge bath only if the dressing covering the catheter is securely and
-      completely attached to the skin all around the dressing edges. If the gauze becomes wet while 
-      showering or during sponge bath, remove the dressing, clean and dry the area, a new dressing 
-      will need to be applied as instructed.
-</p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href='#'>Can I take a bath?
-</a>
-      <ul class='sub-items'>
-        <li>
-          <p>Never allow the dressing covering the catheter to soak under water in tub, bath, pool, etc. </p>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</div>
-
-      
+        <div id="map"></div>
+        <div class="search_location text-center">
+          <input id="lat3" type="hidden" value="42.062878">
+          <input id="lng3" type="hidden" value="-88.349762">
+         
+         
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+<!--Contact Form & Address-->
+<section class="padding bg_grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-8">
+        <h2 class="heading">Get in Touch</h2>
+        <hr class="heading_space">
+        <form class="callus" onSubmit="return false"  id="contact_form">
+          <div class="row">
+          
+           <div class="col-md-12">
+                    <div id="result" class="text-center form-group"></div>
+           </div>
+          
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" type="text" name="f_name" id="f_name"  placeholder="First Name" required />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" type="text" name="l_name" id="l_name"  placeholder="Last Name" required />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" type="email" name="email" id="email"  placeholder="Email Address" required />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" type="text" name="phone" id="phone" required placeholder="Phone No">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea placeholder="Message" name="message" id="message"></textarea>
+              </div>
+              <div class="form-group">
+                 <div class="btn-submit button3">
+                <input type="submit" value="Submit Request" id="btn_contact_submit">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-4 col-sm-4 medix">
+        <h2 class="heading">MediX</h2>
+        <hr class="heading_space"> 
+        <p><strong>Phone:</strong> 1.800.555.6789</p>
+        <p><strong>Email:</strong> <a href="mailto:support@medix.com">support@medix.com</a></p>
+        <p><a href="#">Web: www.medix.com</a></p>
+        <p><strong>Address:</strong> 12345 North Main Street, New York</p>
+          <ul class="social_icon">
+            <li class="black"><a href="#" class="facebook"><i class="icon-facebook5"></i></a></li>
+            <li class="black"><a href="#" class="twitter"><i class="icon-twitter4"></i></a></li>
+            <li class="black"><a href="#" class="google"><i class="icon-google"></i></a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!--Footer-->
@@ -201,7 +194,7 @@
           <li><a href="index.html" >Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li> <a href="products.html" >Medical Products</a></li>
-
+           
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -230,9 +223,9 @@
 <a href="#" id="back-top"><i class="fa fa-angle-up fa-2x"></i></a>
 
 <script src="js/jquery-2.2.3.js" type="text/javascript"></script>
-<script src="js/bootstrap-datetimepicker.min.js"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/jquery.geolocation.edit.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
 <script src="js/jquery.themepunch.tools.min.js"></script>
 <script src="js/jquery.themepunch.revolution.min.js"></script>
 <script src="js/slider.js" type="text/javascript"></script>
@@ -242,3 +235,5 @@
 <script src="js/functions.js" type="text/javascript"></script>
 </body>
 </html>
+
+
