@@ -44,7 +44,7 @@
 								sliderType:"standard",
 								jsFileLocation:"../../revolution/js/",
 								sliderLayout:"fullwidth",
-								delay:9000,
+								delay:9999999,
 								gridwidth:1170,
                         gridheight:640,
 								navigation: {
