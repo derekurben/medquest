@@ -354,10 +354,10 @@ font-family: 'open_sanssemibold';
 	color:#209cd0;
 }
 .bg_blue{
-	background-color:#0798bc;
+	background-color:#0688A9;
 }
 .heading{
-	border-bottom:2px solid #0798bc;
+	border-bottom:2px solid #0688A9;
 	padding-bottom:10px;
 	display:inline-block;
 }
@@ -412,7 +412,7 @@ hr{
   transition: all 0.5s linear 0s;
 }
 .button3:hover, .button3:focus{
-	background:#0798bc !important;
+	background:#0688A9 !important;
 }
 .bg_blue	.button3:hover, .bg_blue .button3:focus{
 	background: #B7B7CC !important;
@@ -546,18 +546,18 @@ ul.widget_links li a:before{
 	font-size:9px;
 }
 ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.active a{
-	color:#0798bc;
+	color:#0688A9;
 }
 .bg_blue ul.widget_links li a:hover, .bg_blue ul.widget_links li a:focus, .bg_blue ul.widget_links li.active a{
 	color:#209cd0;
 }
 
 .datetimepicker-days .table-condensed thead > tr:first-child{
-	background:#0798bc;
+	background:#0688A9;
 	color:#fff;
 }
 .datetimepicker thead tr:first-child th:hover{
-  background:#0798bc;
+  background:#0688A9;
 }
 
 /*Go to top button*/
@@ -566,7 +566,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
   position: fixed;
   right:25px;
   z-index:800;
-  background:#0798bc;
+  background:#0688A9;
   color:#fff;
   border-radius:100%;
   height:40px;
@@ -584,7 +584,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
 
 /* =================================== Top Most bar =================================== */
 .topbar{
-	background-color:#0798BC;
+	background-color:#0688A9;
 	padding:10px 0;
 	color:#fff;
 }
@@ -670,7 +670,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
 	color:#fff;
 }
 .navbar-default .navbar-nav > li.active > a{
-	background-color:#0798bc;
+	background-color:#0688A9;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > li.active > a:hover, .navbar-default .navbar-nav > li.active > a:focus,
@@ -713,7 +713,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
 }
 .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-nav > li > .dropdown-menu > li > a:focus,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
-	background:#0798bc;
+	background:#0688A9;
 	color:#fff;
 }
 
@@ -1061,7 +1061,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
 #service-slider .owl-next{ right:10px;}
 #service-slider .owl-prev:hover, #service-slider .owl-prev:focus,
 #service-slider .owl-next:hover, #service-slider .owl-next:hover{
-	background:#0798bc;
+	background:#0688A9;
 	color:#fff;
 }
 
@@ -1155,8 +1155,8 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
 #news-slider .owl-prev:hover,
 #news-slider .owl-next:hover{
 	color:#fff;
-	background:#0798bc;
-	border-color:#0798bc;
+	background:#0688A9;
+	border-color:#0688A9;
 }
 .padding_left{
 	padding-left:15px;
@@ -1171,7 +1171,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
 	width:100%;
 	background-attachment:fixed;
 	background-position:center center;
-	background-color:#0798bc;
+	background-color:#0688A9;
 }
 .right_box{
 	background:rgba(7,152,188,.75);
@@ -1300,7 +1300,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
    left: 0;
    position: absolute;
    width: 100%;
-   background:#0798bc;
+   background:#0688A9;
 	-moz-transition: height 0.3s ease 0s;
 	-o-transition: height 0.3s ease 0s;
 	-transition: height 0.3s ease 0s;
@@ -1668,7 +1668,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
   vertical-align: middle;
 }
 #blog .blog_item ul.comments li a:hover, #blog .blog_item ul.comments li a:focus{
-	color:#0798bc;
+	color:#0688A9;
 }
 /*#blog .blog_item .image_container > img{
 	min-height:390px;
@@ -1703,7 +1703,7 @@ ul.widget_links li a:hover, ul.widget_links li a:focus, ul.widget_links li.activ
 }
 #blog-slider .owl-prev:hover, #blog-slider .owl-prev:focus,
 #blog-slider .owl-next:hover, #blog-slider .owl-next:focus{
-	background:#0798bc;
+	background:#0688A9;
 	color:#fff;
 }
 #blog-slider .owl-prev{ left:0; }
@@ -1879,7 +1879,7 @@ form.callus .btn-submit{
 
 /*for Date Field*/
 .datetimepicker table tr td.active:active, .datetimepicker table tr td.active:hover:active, .datetimepicker table tr td.active.disabled:active, .datetimepicker table tr td.active.disabled:hover:active, .datetimepicker table tr td.active.active, .datetimepicker table tr td.active.active:hover, .datetimepicker table tr td.active.disabled.active, .datetimepicker table tr td.active.disabled.active:hover{
-  background-color: #0798bc;
+  background-color: #0688A9;
   background-image:none;
 }
 .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
@@ -2018,7 +2018,7 @@ form.callus .btn-submit{
 .service_wrapper .sub-items .accordion-image{
 }
 .sub-items .accordion-image .image_caption{
-	background:#0798bc;
+	background:#0688A9;
 	color:#fff;
 	padding:15px;
 	text-align:center;
@@ -2077,7 +2077,7 @@ form.callus .btn-submit{
 }
 .procedure ul.tabs li.active, .procedure  ul.tabs li:hover, .procedure ul.tabs li:focus{
 	background:#fff;
-	color:#0798bc;
+	color:#0688A9;
 }
 .procedure ul.tabs,.procedure .tab_container{
 	 display:block;
@@ -2102,7 +2102,7 @@ form.callus .btn-submit{
 	height:8px;
 	width:8px;
 	border-radius:100%;
-	background:#0798bc;
+	background:#0688A9;
 	display:inline-block;
 	margin-right:7px;
 }
@@ -2119,7 +2119,7 @@ form.callus .btn-submit{
   right:15px;
 }
 .procedure_content .items > li > a:hover, .procedure_content .items > li > a.expanded {
-	background:#0798bc;
+	background:#0688A9;
 }
 .procedure_content .sub-items {
   display: none;
@@ -2190,8 +2190,8 @@ form.callus .btn-submit{
 /* =================================== Index2 =================================== */
 .feature{ margin:25px 0;}
 .feature i{
-  background: #0798bc;
-  border: 3px solid #0798bc;
+  background: #0688A9;
+  border: 3px solid #0688A9;
   border-radius: 100%;
   box-shadow: 0 0 0 3px #ffffff inset;
   color: #fff;
@@ -2239,7 +2239,7 @@ form.callus .btn-submit{
 }
 #news-slider .news_content .date_comment{
   background: #ffffff;
-  border: 1px solid #0798bc;
+  border: 1px solid #0688A9;
   float: left;
   height:110px;
   margin: 24px 15px 0 0;
@@ -2248,7 +2248,7 @@ form.callus .btn-submit{
 }
 #news-slider .news_content .date_comment span{
 	color:#fff;
-	background:#0798bc;
+	background:#0688A9;
 	padding:15px;
 	display:block;
 	font-size:28px;
@@ -2265,7 +2265,7 @@ form.callus .btn-submit{
   display: inline-block;
 }
 #news-slider .news_content .date_comment a:hover, #news-slider .news_content .date_comment a:focus{
-	color: #0798bc;
+	color: #0688A9;
 }
 #news-slider .news_content .comment_text{
 	padding-top:25px;
@@ -2295,7 +2295,7 @@ form.callus .btn-submit{
 }
 .paralax .detail{
 	font-size:20px;
-	color:#0798BC;
+	color:#0688A9;
 }
 
 
