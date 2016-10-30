@@ -226,7 +226,7 @@ a, a:focus{
 a:hover{
 	outline:none;
 	text-decoration:underline;
-	color:coral;
+	color:white;
 }
 input{
 	background:inherit;
